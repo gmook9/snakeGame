@@ -52,9 +52,7 @@ entireWorm::~entireWorm()
     endwin();
 }
 
-// **NOTE TO PROF**
-// Professor, this could be done better than using a while loop, and I understand we want to limits the loops for this project
-// for intializng. However, I was overcome with bugs at the end so this was the simplest way to get it to work.
+// Note: this could be done better than using a while loop
 void entireWorm::begin()
 {
     createFreePool();
@@ -83,9 +81,7 @@ void entireWorm::createFreePool() {
 
 }
 
-// **NOTE TO PROF**
-// Professor, this could be done better than using a while loop, and I understand we want to limits the loops for this project
-// for intializng. However, I was overcome with bugs at the end so this was the simplest way to get it to work.
+// Note: this could be done better than using a while loop
 void entireWorm::placeMunchie()
 {
     while (1)
