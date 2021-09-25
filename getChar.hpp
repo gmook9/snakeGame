@@ -1,0 +1,3 @@
+
+extern char getChar( void );
+
